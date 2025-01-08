@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assessment-narendra_babu</title>
+    <style>
+        body {
+
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 5%;
+            margin-bottom: 2%;
+            background-color: rgb(236, 234, 234);
+        }
+
+        .header {
+            display: flex;
+            padding: 30px;
+            background-color: white;
+            margin-bottom: 1%;
+        }
+
+        .header p {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .headerimg img {
+            height: 100%;
+            width: 60%;
+        }
+
+        .bannerimg img {
+            width: 500px;
+            height: auto;
+            padding-bottom: 3%;
+        }
+
+        .banner {
+            background-color: white;
+            padding: 30px;
+        }
+
+        .bannerheading {
+            font-size: 40px;
+            padding-bottom: 3%;
+            text-align: center;
+            color: #008080
+        }
+
+        .bannertext {
+            text-align: justify;
+            text-align: center;
+            padding-bottom: 2%;
+        }
+
+        .cta {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #008080;
+            text-align: center;
+            font-size: 40px;
+            color: white;
+            height: 50px;
+            width: 480px;
+            margin: auto;
+            border-radius: 5px;
+        }
+
+        .gallarystart {
+            background-color: rgb(242, 246, 250);
+        }
+
+        .gallaryhead {
+            font-size: 40px;
+            text-align: center;
+            padding-top: 5%;
+            color: #008080;
+        }
+
+        .gallary {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+
+        }
+
+        .gallary1,
+        .gallary2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 0 2%;
+            background-color: white;
+            padding: 5%;
+        }
+
+        .imgcenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .gallary1img,
+        .gallary2img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            background-color: rgb(236, 234, 234);
+            border-radius: 50%;
+        }
+
+        .gallary1header,
+        .gallary2header {
+            color: #008080;
+            font-size: 30px;
+            margin: 3%;
+        }
+
+        .footer {
+            background-color: white;
+            padding: 5%;
+        }
+
+        #privacy {
+            text-align: center;
+            justify-content: center;
+        }
+
+        #privacy img {
+            height: auto;
+            width: 15%;
+        }
+
+        #line {
+            justify-content: center;
+            text-align: center;
+        }
+
+        /* Media Queries for Mobile */
+        @media screen and (max-width:426px) {
+            body {
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 2%;
+            }
+
+            .headerimg img {
+                width: 100%;
+            }
+
+            .bannerimg img {
+                max-width: 280px;
+            }
+
+            .bannerheading {
+                font-size: 25px;
+            }
+
+            .cta {
+                font-size: 25px;
+                height: 40px;
+                width: 290px;
+            }
+
+            .gallaryhead {
+                font-size: 25px;
+            }
+
+            .gallary {
+                display: block;
+                justify-content: space-between;
+                padding: 20px;
+
+            }
+
+            .gallary1,
+            .gallary2 {
+                margin: 5%;
+            }
+
+            .gallary1img,
+            .gallary2img {
+                height: 100%;
+                width: 80%;
+            }
+            #privacy img {
+            width: 25%;
+        }
+    }
+        @media screen and (min-width:426px) and (max-width:769px) {
+            body {
+                margin-left: 15%;
+                margin-right: 15%;
+                margin-top: 2%;
+            }
+
+            .headerimg img {
+                width: 100%;
+            }
+
+            .bannerimg img {
+                width: 450px;
+                height: auto;
+                margin-left: 5%;
+            }
+
+            .bannerheading {
+                font-size: 35px;
+            }
+
+            .gallaryhead {
+                font-size: 35px;
+            }
+
+            .gallary {
+                display: block;
+            }
+
+            .gallary1,
+            .gallary2 {
+                margin: 5%;
+            }
+
+            .gallary1img,
+            .gallary2img {
+                height: 100%;
+                width: 50%;
+            }
+            #privacy img {
+            width: 40%;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- headersection -->
+    <section class="header">
+        <div class="headerimg">
+            <img src="https://raw.githubusercontent.com/Narendrag20/assessment-narendra_babu/main/image-library/globe.png"
+                alt="Globe Image">
+        </div>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </section>
+
+    <!-- Bannersection -->
+    <section class="banner">
+        <div class="bannerimg">
+            <img src="https://raw.githubusercontent.com/Narendrag20/assessment-narendra_babu/main/image-library/globe.png"
+                alt="Globe Image">
+        </div>
+        <div class="bannerheading">
+            Excepteur sint occaecat cupidatat
+        </div>
+        <div class="bannertext">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+        </div>
+        <div class="cta">
+            Ut enim ad minim veniam
+        </div>
+    </section>
+    <!-- gallarysection -->
+    <section class="gallarystart">
+        <div class="gallaryhead">
+            Sint cupidatat occaecat ut
+        </div>
+        <div class="gallary">
+            <div class="gallary1">
+                <div class="gallary1img">
+                    <img class="imgcenter"
+                        src="https://raw.githubusercontent.com/Narendrag20/assessment-narendra_babu/main/image-library/globe.png"
+                        alt="Globe Image">
+                </div>
+                <div class="gallary1header">
+                    Nisi ut ade
+                </div>
+                <div class="gallary1text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.¹
+                </div>
+            </div>
+
+            <div class="gallary2">
+                <div class="gallary2img">
+                    <img class="imgcenter"
+                        src="https://raw.githubusercontent.com/Narendrag20/assessment-narendra_babu/main/image-library/globe.png"
+                        alt="Globe Image">
+                </div>
+                <div class="gallary2header">
+                    Nisi ut ade
+                </div>
+                <div class="gallary2text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.¹
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footter -->
+    <section class="footer">
+        <div class="footerhaed">
+            <b>Ut enim ad minim:</b>
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+        </p>
+        <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+        <div class="footerhead">
+            <b>Sint occaecat cupidatat:</b>
+        </div>
+        <ol>
+            <li>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.
+            </li>
+            <li>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            </li>
+        </ol>
+        <div id="line">
+            ________________________________________
+        </div>
+        <div id="privacy">
+            <p>
+                Sed do eiusmod tempor incididunt ut labore
+            </p>
+            <div>
+                <img src="https://raw.githubusercontent.com/Narendrag20/assessment-narendra_babu/main/image-library/globe.png"
+                    alt="Globe Image">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
